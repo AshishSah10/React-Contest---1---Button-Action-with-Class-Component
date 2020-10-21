@@ -10,7 +10,7 @@ class App extends Component {
   }
   handleClick = () => {
     this.setState({ paraId: 1 });
-    document.getElementById(1).innerText =
+    document.getElementById("para").innerText =
       "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";
   };
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
         <button id="click" onClick={this.handleClick}>
           Click Me!
         </button>
-        <p id={this.state.paraId}></p>
+        <p id="para"></p>
       </div>
     );
   }
