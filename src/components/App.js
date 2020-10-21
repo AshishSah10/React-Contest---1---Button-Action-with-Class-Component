@@ -9,9 +9,9 @@ class App extends Component {
     };
   }
   handleClick = () => {
-    this.setState({ paraId: 1 });
     document.getElementById("para").innerText =
       "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";
+    this.setState({ paraId: 1 });
   };
   render() {
     return (
